@@ -1,3 +1,4 @@
+// check if tree is binary search tree
 #include <iostream>
 #include <string>
 #include <queue>

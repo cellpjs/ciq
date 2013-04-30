@@ -1,3 +1,5 @@
+// directed graph
+// find whether there is route between two nodes 
 #include <iostream>
 #include <string>
 #include <list>

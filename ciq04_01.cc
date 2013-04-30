@@ -1,3 +1,4 @@
+// check if a binary tree is balanced
 #include <iostream>
 #include <string>
 

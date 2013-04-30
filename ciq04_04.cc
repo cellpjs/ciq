@@ -1,3 +1,5 @@
+// binary tree
+// create linked list of nodes at each depth level
 #include <iostream>
 #include <string>
 #include <queue>

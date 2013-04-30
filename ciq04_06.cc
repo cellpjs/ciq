@@ -1,3 +1,5 @@
+// find next node in binary search tree
+// node has link to parent
 #include <iostream>
 #include <string>
 

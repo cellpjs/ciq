@@ -1,3 +1,5 @@
+// binary tree
+// print all paths that sum to a given value
 #include <iostream>
 #include <vector>
 
