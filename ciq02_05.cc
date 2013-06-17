@@ -1,3 +1,5 @@
+// each node in linked list represents digit (lsb first)
+// add two numners (need to consider carry)
 #include <iostream>
 #include <string>
 

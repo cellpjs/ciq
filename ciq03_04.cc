@@ -1,3 +1,8 @@
+// tower of hanoi
+// 3 towers, N disks, start with disks small on top of large @ tower 1 
+// objective: move disks from tower 1 to tower 3
+// rules: one at a time, off the top, place only on top of larger disk
+// using stacks
 #include <iostream>
 #include <string>
 
@@ -58,6 +63,7 @@ class Istack {
         return (top==NULL);
     }
 
+    // print from bottom to top
     void probe(Inode* p){
         if (p==NULL) return;
         if (p->next!=NULL){

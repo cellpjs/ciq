@@ -1,3 +1,4 @@
+/* reverse a null-terminated string (c-string) */
 #include <iostream>
 #include <cstring>
 

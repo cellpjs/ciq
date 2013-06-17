@@ -1,3 +1,5 @@
+// partition a linked list around value x
+// nodes less than x -> x -> nodes greater than x
 #include <iostream>
 #include <string>
 

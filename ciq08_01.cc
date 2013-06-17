@@ -1,3 +1,5 @@
+// deck of cards
+// black jack
 #include <iostream>
 #include <string>
 #include <vector>

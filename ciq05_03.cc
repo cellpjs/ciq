@@ -1,3 +1,6 @@
+// given a positive integer
+// print next number (large and small) 
+// that have the same number of 1's in binary
 #include <iostream>
 #include <string>
 

@@ -1,5 +1,6 @@
 // binary tree
 // print all paths that sum to a given value
+// assume paths start at the root and end at one of the nodes in the tree
 #include <iostream>
 #include <vector>
 

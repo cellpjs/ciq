@@ -1,3 +1,5 @@
+/* replace space by %20 in string */
+/* using string's find and replace methods */
 #include <iostream>
 #include <string>
 

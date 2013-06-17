@@ -1,3 +1,5 @@
+/* delete node in the middle of linked list given only that node */
+/* copy the data of next node and remove the next node! */
 #include <iostream>
 #include <string>
 
@@ -25,6 +27,7 @@ void removeNode(Inode* a){
     else{
         // copy and remove next node!!!
         a->data = a->next->data;
+        delete a->next;
         a->next = a->next->next;
     }
 }

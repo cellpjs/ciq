@@ -1,4 +1,5 @@
 // check if tree is binary search tree
+// for all nodes, the left children < current node < right children
 #include <iostream>
 #include <string>
 #include <queue>

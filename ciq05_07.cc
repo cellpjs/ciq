@@ -1,3 +1,7 @@
+// integers 0 .. n
+// one missing
+// find the missing number
+// using fetch bit operations
 #include <iostream>
 #include <string>
 #include <vector>

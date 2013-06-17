@@ -1,3 +1,6 @@
+// n & (n-1) == 0
+// n power of 2
+// e.g., 1000 & 0111
 #include <iostream>
 #include <string>
 

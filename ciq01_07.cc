@@ -1,3 +1,4 @@
+/* if a[i][j]=0 set row i and column j to all zero */ 
 #include <iostream>
 #include <string>
 

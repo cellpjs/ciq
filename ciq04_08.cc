@@ -1,4 +1,8 @@
 // find whether a tree is a subtree of another tree
+// A subtree of a tree T is a tree consisting of
+// a node in T and all of its descendants in T
+// This definition of subtree for data structure
+// is different from that in graph theory 
 #include <iostream>
 #include <string>
 #include <queue>

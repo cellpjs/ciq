@@ -1,3 +1,7 @@
+// monochrome bit pixel image
+// array of bytes (each byte = 8 pixels)
+// width w multiple of 8
+// draw horizontal line from (x1,y) to (x2,y)
 #include <iostream>
 #include <string>
 #include <vector>

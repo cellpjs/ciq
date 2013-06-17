@@ -1,3 +1,5 @@
+// swap even and odd bits
+// swap bits 0 and 1, bits 2 and 3, ...
 #include <iostream>
 #include <string>
 

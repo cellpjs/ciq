@@ -1,3 +1,6 @@
+// sort a stack (biggest on top)
+// may use additional stacks
+// may not copy elements into other data structures
 #include <iostream>
 #include <string>
 
@@ -114,7 +117,7 @@ Istack sortdis2(Istack s){
 
         while (!a.isempty() && a.peak()>k) {
             s.push(a.pop());
-        }
+        } // take out everything bigger than k
         a.push(k);
     }
 

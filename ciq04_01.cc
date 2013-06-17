@@ -1,4 +1,5 @@
 // check if a binary tree is balanced
+// height of two subtrees at any node never differ by more than one
 #include <iostream>
 #include <string>
 

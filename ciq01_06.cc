@@ -1,3 +1,5 @@
+/* rotate NxN matrix (image) by 90 degree (in place) */
+/* just be super careful and test */
 #include <iostream>
 #include <string>
 

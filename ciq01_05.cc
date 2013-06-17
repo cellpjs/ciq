@@ -1,3 +1,5 @@
+/* string compression (run-length) */
+/* warning: to_string() sometimes not supported */
 #include <iostream>
 #include <string>
 #include <sstream>

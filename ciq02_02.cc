@@ -1,3 +1,4 @@
+/* find k-th element from last in linked list */
 #include <iostream>
 #include <string>
 

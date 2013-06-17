@@ -1,3 +1,4 @@
+/* determine if string has all unique characters */
 #include <iostream>
 #include <string>
 #include <bitset>
@@ -9,6 +10,7 @@ class MyString {
     MyString(std::string a): s(a) {}
 
     bool isUnique() {
+        // assuming 8-bit char
         if (s.size()>256) return false;
         else{
             std::bitset<256> cflag;

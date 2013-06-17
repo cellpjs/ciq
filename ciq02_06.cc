@@ -1,3 +1,6 @@
+// circular linked list
+// a -> b -> c -> d -> e -> c
+// find beginning of loop (c above)
 #include <iostream>
 #include <string>
 #include <set>
@@ -60,6 +63,7 @@ int getKth(Inode *a, int k){
     return a->data;
 }
 
+// by keeping track of visited nodes
 Inode* findLoop(Inode *a){
     if (!a) return NULL;
     set<Inode *> visited;
@@ -70,6 +74,10 @@ Inode* findLoop(Inode *a){
     return a;
 }
 
+//***********************************************************                                    
+//* using two pointers one slow one fast (runner technique) *
+//***********************************************************
+// and some very sharp mod calculation
 Inode* findLoopAnother(Inode *a){
     if (!a) return NULL;
     Inode* slow = a;

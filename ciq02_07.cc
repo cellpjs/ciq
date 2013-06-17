@@ -1,3 +1,5 @@
+// check if linked list is a 
+// ** palindrome **
 #include <iostream>
 #include <string>
 #include <set>

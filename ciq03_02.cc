@@ -1,3 +1,4 @@
+//stack with min
 #include <iostream>
 #include <string>
 #include <climits>
@@ -64,7 +65,7 @@ class Istackmin : public Istack {
     int pop(){
         if (this->peak()==minstack.peak()){
             minstack.pop(); // return to ?
-            return Istack::pop();
+            return Istack::pop(); // parent method call
         }
         else{
             return Istack::pop();

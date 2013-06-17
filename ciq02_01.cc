@@ -1,3 +1,4 @@
+/* remove duplicates from linked list */
 #include <iostream>
 #include <string>
 
@@ -24,6 +25,7 @@ void removeDuplicate(Inode *a){
         Inode* c=b;
         while (c && c->next){
             if (c->next->data==b->data){
+                delete c->next;
                 c->next=c->next->next;
             }
             c=c->next;
@@ -31,7 +33,6 @@ void removeDuplicate(Inode *a){
         b=b->next;
     }
 }
-
 
 int main(){
 

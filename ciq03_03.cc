@@ -1,3 +1,7 @@
+// set of stacks
+// start a new stack if previous stacks gets too high
+// behave like a single stack
+// plus support sub-stack pop
 #include <iostream>
 #include <string>
 #include <climits>

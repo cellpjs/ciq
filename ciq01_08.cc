@@ -1,3 +1,6 @@
+/* find if a string is a rotation of another string */
+/* concatenate one of the strings back to back */
+/* and check if it contains the other string */
 #include <iostream>
 #include <string>
 

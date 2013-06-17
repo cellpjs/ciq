@@ -1,3 +1,5 @@
+// number of bits required to convert integer a to b
+// bit diff
 #include <iostream>
 #include <string>
 
@@ -50,9 +52,6 @@ int bitdiff(int a, int b){
     int c = a^b;
     return onebits(c);
 }
-
-
-
 
 int main(){
     

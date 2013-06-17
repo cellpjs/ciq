@@ -1,3 +1,5 @@
+// binary representation of a number (double) between 0 and 1 (e.g. 0.125)
+// (error if cannot represent accurately with 32 bits)  
 #include <iostream>
 #include <string>
 

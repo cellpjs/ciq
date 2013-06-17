@@ -1,3 +1,6 @@
+// call center
+// respondent, manager, director
+// call dispatcher
 #include <iostream>
 #include <string>
 #include <vector>

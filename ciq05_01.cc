@@ -1,3 +1,9 @@
+// given two 32-bit numbers
+// insert M into N at bit positions i through j  
+// N = 10000000000
+// M =     10011
+// R = 10001001100
+// pos     6   2  (i=2, j=6)
 #include <iostream>
 #include <string>
 

@@ -1,3 +1,4 @@
+// implement three stacks using a single array
 #include <iostream>
 #include <string>
 #define STACKLEN 10
