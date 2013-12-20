@@ -19,18 +19,17 @@ void printList(Inode* a){
 }
 
 void removeDuplicate(Inode *a){
-    Inode* b=a;
-    while (b && b->next){
-        // check all node after b
-        Inode* c=b;
-        while (c && c->next){
-            if (c->next->data==b->data){
-                delete c->next;
-                c->next=c->next->next;
+    while (a && a->next){
+        // check all node after a
+        Inode* b=a;
+        while (b && b->next){
+            if (b->next->data==a->data){
+                delete b->next;
+                b->next=b->next->next;
             }
-            c=c->next;
+            b=b->next;
         }
-        b=b->next;
+        a=a->next;
     }
 }
 
