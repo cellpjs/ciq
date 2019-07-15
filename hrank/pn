@@ -1,0 +1,3 @@
+url = ARGV[0]
+puts url.split("/")[4]
+
